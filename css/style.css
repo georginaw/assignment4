@@ -465,6 +465,7 @@ footer p {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 40px;
   }
 
   #main .container {
@@ -540,6 +541,17 @@ footer p {
     width: 90%;
   }
 
+ #sidebar h3 {
+    font-size: 1.5rem;
+  }
+
+  #sidebar ul li a {
+    font-size: 1.25rem;
+  }
+
+  #sidebar p {
+    font-size: 1rem;
+  }
 }
 
 @media only screen and (max-width: 480px) and (min-width: 10px) {
@@ -582,7 +594,7 @@ footer p {
     width: 90%;
   }
 
-   #sidebar h2 {
+   #sidebar h3 {
     font-size: 1.25rem;
   }
 
